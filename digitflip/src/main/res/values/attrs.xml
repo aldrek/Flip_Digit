@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <declare-styleable name="FlipDigit">
+            <attr name="tintColor" format="color" />
+            <attr name="isFastFlip" format="boolean"/>
+        </declare-styleable>
+
+    <declare-styleable name="FlipMain">
+        <attr name="isFastFlipMain" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>

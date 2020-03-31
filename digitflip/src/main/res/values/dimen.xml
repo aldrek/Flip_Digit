@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="flip_duration_animation" type="integer">150</item>
+
+</resources>
