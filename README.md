@@ -9,7 +9,7 @@
 ## Usage
   
   Use this in xml 
-  ```
+```
     <com.aldrek.digitflip.FlipDigit
         android:id="@+id/digit"
         android:layout_width="wrap_content"
@@ -21,12 +21,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         ></com.aldrek.digitflip.FlipDigit>
-       
-    ```
+```
+
    Use this in code
     
      Kotlin
-     ```
+```
         var i = 0
         object : CountDownTimer(30000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -38,11 +38,11 @@
             override fun onFinish() {
             }
          }.start()
-       ```
+```
 
       Java
       
-       ```
+```
          int i = 0;
          new CountDownTimer(10000, 1000) {
 
@@ -54,7 +54,7 @@
              }
 
            }.start();
-       ```
+```
 
 
 ## Contributing
