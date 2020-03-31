@@ -9,6 +9,7 @@
 ## Usage
   
   Use this in xml 
+  
 ```
     <com.aldrek.digitflip.FlipDigit
         android:id="@+id/digit"
@@ -24,8 +25,9 @@
 ```
 
    Use this in code
-    
-     Kotlin
+   
+   Kotlin
+     
 ```
         var i = 0
         object : CountDownTimer(30000, 1000) {
@@ -40,8 +42,9 @@
          }.start()
 ```
 
-      Java
-      
+   Java
+   
+   
 ```
          int i = 0;
          new CountDownTimer(10000, 1000) {
