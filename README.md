@@ -1,4 +1,4 @@
-# ${1:Flip_Digit}
+# Flip digit library
 
 # ![](gif.gif)
 
@@ -10,16 +10,17 @@
   
   Use this in xml 
   
-      <com.aldrek.digitflip.FlipDigit
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/digit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:isFastFlip="true"
+        app:tintColor="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tintColor="#FF0000"></com.aldrek.digitflip.FlipDigit>
+        ></com.aldrek.digitflip.FlipDigit>
         
    Use this in code
     
