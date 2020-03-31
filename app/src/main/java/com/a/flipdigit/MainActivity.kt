@@ -14,36 +14,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        flip.setValue( 1000, true)
-
-//        flipItem.setDigit(1000, true)
-
-
         object : CountDownTimer(30000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
 
-//                flip.setValue(i * 4, true)
                 filipSingle.setDigit(i , true)
                 i++
-                //here you can have your logic to set text to edittext
             }
 
             override fun onFinish() {
             }
         }.start()
 
-//        object : CountDownTimer(10000, 1000) {
-//            override fun onTick(millisUntilFinished: Long) {
-//
-//                flipItem.setDigit(i, true)
-//
-//                i++
-//                //here you can have your logic to set text to edittext
-//            }
-//
-//            override fun onFinish() {
-//            }
-//        }.start()
     }
 
 }
