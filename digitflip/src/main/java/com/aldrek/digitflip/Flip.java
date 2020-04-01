@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import static android.content.ContentValues.TAG;
 
 class Flip implements AnimationListener {
-
     private ImageView flip_backup = null;
     private ImageView flipI_backlow = null;
     private ImageView flip_frontup = null;
@@ -36,7 +35,8 @@ class Flip implements AnimationListener {
     public Flip(Context act, int id, View view, OnAnimationComplete animComplete, boolean isFastFlip, int color) {
         super();
         this.context = act;
-        this.color = color;
+        if(color != 0)
+            this.color = color;
         this.id = id;
         this.animComplete = animComplete;
         this.isFastFlip = isFastFlip;
@@ -46,14 +46,7 @@ class Flip implements AnimationListener {
         flip_frontup = (ImageView) view.findViewById(R.id.image_flip_front_upper);
         flip_frontlow = (ImageView) view.findViewById(R.id.image_flip_front_lower);
 
-        if (color != 0) {
-
-            flip_backup.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
-            flipI_backlow.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
-            flip_frontup.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
-            flip_frontlow.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
-
-        }
+        setColor();
 
         init();
     }
@@ -76,8 +69,28 @@ class Flip implements AnimationListener {
             setDigitImageToAll(digit);
     }
 
+    private void setColor(){
+
+        if (color != 0) {
+
+            flip_backup.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
+            flipI_backlow.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
+            flip_frontup.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
+            flip_frontlow.setColorFilter(color, android.graphics.PorterDuff.Mode.SRC_IN);
+
+        }
+
+    }
+
+
     public void setFastFlip(boolean isFastFlip) {
         this.isFastFlip = isFastFlip;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+        setColor();
+
     }
 
     private void animateDigit(boolean isUpper) {
@@ -301,5 +314,6 @@ class Flip implements AnimationListener {
         }
 
     }
+
 
 }

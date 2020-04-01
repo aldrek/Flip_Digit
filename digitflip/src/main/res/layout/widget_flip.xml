@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="1dip" >
+    android:padding="1dip"
+    tools:ignore="MissingDefaultResource">
 
-    <!-- <com.a.flipdigit.FlipItem
+    <!-- <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_100k"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_10k"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" /> -->
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:isFastFlip="true"
-
         />
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:isFastFlip="true"
         />
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:isFastFlip="true"
         />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_piont"
-        android:layout_gravity="bottom"
-        />
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:srcCompat="@drawable/ic_piont"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        />-->
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,7 +54,7 @@
         />
 
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,7 +62,7 @@
         />
 
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/widget_flip_item_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

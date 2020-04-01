@@ -93,5 +93,11 @@ public class FlipDigit extends RelativeLayout {
         flip.setFastFlip(isFastFlip);
     }
 
+    public void setColor(int color) {
+        flip.setColor(color);
+    }
+
+
+
 
 }

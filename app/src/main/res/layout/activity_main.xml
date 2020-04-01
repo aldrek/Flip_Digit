@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.a.flipdigit.FlipMain
+    <com.aldrek.digitflip.FlipWidget
         android:id="@+id/flip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,11 +15,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:isFastFlipMain="false">
+        app:numberOfDigits="6"
+        app:digitColor="@color/colorAccent"
+        app:isFastFlipMain="true">
 
-    </com.a.flipdigit.FlipMain>
+    </com.aldrek.digitflip.FlipWidget>
 
-    <com.a.flipdigit.FlipItem
+    <com.aldrek.digitflip.FlipDigit
         android:id="@+id/filipSingle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
