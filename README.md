@@ -11,7 +11,7 @@
 ## :hammer: Setup
  In your ``` build.gradle:```
 
-```
+``````Gradle
 dependencies {
    implementation 'com.github.aldrek:Flip_Digit:1.0.1'
 }
@@ -21,7 +21,7 @@ dependencies {
   
   Use this in xml 
   
-```Gradle 
+```xml 
  <com.aldrek.digitflip.FlipDigit
    android:id="@+id/digit"
    android:layout_width="wrap_content"
@@ -39,7 +39,8 @@ dependencies {
    
    Kotlin
      
-  ```Gradle 
+  ```java 
+  
    var i = 0
    
    object : CountDownTimer(30000, 1000) {
@@ -57,7 +58,7 @@ dependencies {
    Java
    
    
-  ```Gradle 
+  ```java 
    
    int i = 0;
    
