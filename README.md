@@ -19,7 +19,7 @@ dependencies {
 
 ## Usage
   
-   Use this in code for  <h3> Single digit </h3>
+   Single digit  
    
    Use this in xml 
   
@@ -73,7 +73,7 @@ dependencies {
     }.start();
    ```
    
-      Use this in code for  <h3> Widget digit </h3>
+  Widget digit 
 
   Use this in xml 
   
