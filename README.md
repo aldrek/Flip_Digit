@@ -3,6 +3,7 @@
   Flip digit Library makes a cool and flexible animation when changing numbers
   
 [![](https://jitpack.io/v/aldrek/Flip_Digit.svg)](https://jitpack.io/#aldrek/Flip_Digit)
+[![platform](https://img.shields.io/badge/platform-Android-green.svg)](https://www.android.com)
 
 # ![](gif.gif)
 
