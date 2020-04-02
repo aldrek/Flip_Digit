@@ -21,7 +21,7 @@ dependencies {
   
   Use this in xml 
   
-```
+  ```Gradle 
     <com.aldrek.digitflip.FlipDigit
         android:id="@+id/digit"
         android:layout_width="wrap_content"
@@ -39,7 +39,7 @@ dependencies {
    
    Kotlin
      
-```
+  ```Gradle 
         var i = 0
         object : CountDownTimer(30000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -56,7 +56,7 @@ dependencies {
    Java
    
    
-```
+  ```Gradle 
          int i = 0;
          new CountDownTimer(10000, 1000) {
 
