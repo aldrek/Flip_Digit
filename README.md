@@ -1,10 +1,12 @@
 # Flip digit library
 
+[![](https://jitpack.io/v/aldrek/Flip_Digit.svg)](https://jitpack.io/#aldrek/Flip_Digit)
+
 # ![](gif.gif)
 
 # Installation
 ``` 
-   implementation 'com.github.aldrek:Flip_Digit:1.0'
+   implementation 'com.github.aldrek:Flip_Digit:1.0.1'
 ```
 ## Usage
   
