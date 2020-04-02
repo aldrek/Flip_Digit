@@ -76,7 +76,6 @@ dependencies {
 | --- | --- |
 | `isFastFlipMain` | enable change flip number from one number to another without going thought all the numbers in between |
 | `tintColor` | change the background color of digit |
-
 | `numberOfDigits` | change the number of digits for the widget |
 | `digitColor` | change all the background of digits in widget ) |
 
