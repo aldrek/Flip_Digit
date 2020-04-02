@@ -19,7 +19,9 @@ dependencies {
 
 ## Usage
   
-  Use this in xml 
+   Use this in code for  <h3> Single digit </h3>
+   
+   Use this in xml 
   
 ```xml 
  <com.aldrek.digitflip.FlipDigit
@@ -34,8 +36,6 @@ dependencies {
    app:layout_constraintTop_toTopOf="parent"
    ></com.aldrek.digitflip.FlipDigit>
 ```
-
-   Use this in code for  <h3> Single digit </h3>
    
    Kotlin
      
@@ -46,7 +46,7 @@ dependencies {
    object : CountDownTimer(30000, 1000) {
        override fun onTick(millisUntilFinished: Long) {
 
-          filipSingle.setDigit(i , true)
+          digit.setDigit(i , true)
             i++
           }
 
@@ -72,12 +72,68 @@ dependencies {
 
     }.start();
    ```
+   
+      Use this in code for  <h3> Widget digit </h3>
+
+  Use this in xml 
+  
+```xml 
+    <com.aldrek.digitflip.FlipWidget
+        android:id="@+id/flipWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:numberOfDigits="6"
+        app:digitColor="@color/colorAccent"
+        app:isFastFlipMain="true">
+  ```
+
+   Kotlin
+     
+  ```java 
+  
+   var i = 0
+   
+   object : CountDownTimer(30000, 1000) {
+       override fun onTick(millisUntilFinished: Long) {
+
+            flipWidget.setValue(i , true)
+            i++
+          }
+
+            override fun onFinish() {
+            }
+    }.start()
+  ```
+
+  Java
+   
+  ```java 
+   
+   flipWidget = this.findViewById(R.id.flipWidget);
+   int i = 0;
+   
+   new CountDownTimer(10000, 1000) {
+
+      public void onTick(long millisUntilFinished) {
+           flipWidget.setValue(i*2 , true);
+      }
+
+       public void onFinish() {
+      }
+
+    }.start();
+    
+   ```
 
   # Attributes
 
   | Attribute | Description |
 | --- | --- |
-| `isFastFlipMain` | enable change flip number from one number to another without going thought all the numbers in between |
+| `isFastFlipMain` | enable change flip number from one number to another without going thought all the numbers in between for one digit |
 | `tintColor` | change the background color of digit |
 | `numberOfDigits` | change the number of digits for the widget |
 | `digitColor` | change all the background of digits in widget ) 
