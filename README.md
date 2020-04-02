@@ -21,7 +21,7 @@ dependencies {
   
   Use this in xml 
   
-  ```Gradle 
+  ```js 
     <com.aldrek.digitflip.FlipDigit
         android:id="@+id/digit"
         android:layout_width="wrap_content"
