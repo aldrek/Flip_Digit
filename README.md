@@ -8,7 +8,7 @@
 
 # ![](gif.gif)
 
-# Getting started
+## :hammer: Setup
  In your ``` build.gradle:```
 
 ``` 
