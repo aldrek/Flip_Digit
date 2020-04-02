@@ -11,7 +11,7 @@
 ## :hammer: Setup
  In your ``` build.gradle:```
 
-``````Gradle
+```Gradle
 dependencies {
    implementation 'com.github.aldrek:Flip_Digit:1.0.1'
 }
@@ -53,7 +53,7 @@ dependencies {
             override fun onFinish() {
             }
     }.start()
-```
+  ```
 
    
    
@@ -71,7 +71,7 @@ dependencies {
       }
 
     }.start();
-```
+   ```
 
   # Attributes
 
