@@ -1,5 +1,7 @@
 # Flip digit library
 
+  Flip digit Library makes a cool and flexible animation when changing numbers
+  
 [![](https://jitpack.io/v/aldrek/Flip_Digit.svg)](https://jitpack.io/#aldrek/Flip_Digit)
 
 # ![](gif.gif)
