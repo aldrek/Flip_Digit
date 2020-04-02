@@ -11,7 +11,7 @@
 ## :hammer: Setup
  In your ``` build.gradle:```
 
-``` 
+```
 dependencies {
    implementation 'com.github.aldrek:Flip_Digit:1.0.1'
 }
