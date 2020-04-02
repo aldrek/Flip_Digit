@@ -6,10 +6,15 @@
 
 # ![](gif.gif)
 
-# Installation
+# Getting started
+ In your ``` build.gradle:```
+
 ``` 
+dependencies {
    implementation 'com.github.aldrek:Flip_Digit:1.0.1'
+}
 ```
+
 ## Usage
   
   Use this in xml 
@@ -62,11 +67,6 @@
 
            }.start();
 ```
-
-
-## Contributing
-
-## Credits
 
 ## License
 Copyright 2018 aldrek . All rights reserved.
