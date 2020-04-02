@@ -35,7 +35,7 @@ dependencies {
    ></com.aldrek.digitflip.FlipDigit>
 ```
 
-   Use this in code
+  <h4>  Use this in code for <h4>   <h2> Single digit </h2>
    
    Kotlin
      
