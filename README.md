@@ -17,9 +17,9 @@ dependencies {
 
 ## Usage
   
-   Single digit  
+   ## Single digit  
    
-   # ![](widget.gif)
+   # ![](single.gif)
    
    Use this in xml 
   
