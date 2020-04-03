@@ -43,7 +43,7 @@ dependencies {
   
    var i = 0
    
-   object : CountDownTimer(30000, 1000) {
+   object : CountDownTimer(10000, 1000) {
        override fun onTick(millisUntilFinished: Long) {
 
           digit.setDigit(i , true)
