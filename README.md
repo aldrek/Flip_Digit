@@ -1,6 +1,6 @@
 # Flip digit library
 
-  Flip digit Library makes a cool and flexible animation when changing from one numbers to another
+  Flip digit Library that makes a cool and flexible animation flip when changing from one numbers to another
   
 [![](https://jitpack.io/v/aldrek/Flip_Digit.svg)](https://jitpack.io/#aldrek/Flip_Digit)
 [![platform](https://img.shields.io/badge/platform-Android-green.svg)](https://www.android.com)
