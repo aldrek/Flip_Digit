@@ -17,7 +17,7 @@ dependencies {
 
 ## Usage
   
-   ## Single digit  
+    Single digit  
    
    # ![](single.gif)
    
